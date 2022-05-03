@@ -68,7 +68,7 @@ fi
 # If a Wrangler version is detected as input
 if [ -z "$INPUT_WRANGLERVERSION" ]
 then
-  npm i @cloudflare/wrangler -g
+  npm install wrangler@beta -g
 else
   npm i "@cloudflare/wrangler@$INPUT_WRANGLERVERSION" -g
 fi
